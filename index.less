@@ -1,0 +1,76 @@
+.wrap {
+  overflow: hidden;
+  border: 1px solid #d3d2d3;
+  border-radius: 3px;
+  cursor: text;
+  background: #fff;
+  transition: all .3s;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  .ulNoneClass {
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    height: 30px;
+  }
+  .ellipsisSpan {
+    float: right;
+    width: 25px;
+  }
+}
+.optStyle {
+  left: 0;
+  overflow: hidden;
+  border: 1px solid #d3d2d3;
+  border-radius: 3px;
+  cursor: text;
+  background: #fff;
+  transition: all .3s;
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  .ulClass {
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    .inputLiStyle {
+      width: 10em;
+    }
+    .inputClass {
+      background: none;
+      border: none;
+      outline: none;
+      box-shadow: none !important;
+    }
+  }
+  .delIcon {
+    position: absolute;
+    bottom: 9px;
+    z-index: 1;
+  }
+}
+.optStyle:hover {
+  border: 1px solid #8e8e8e;
+}
+.wrap:hover {
+  border: 1px solid #8e8e8e;
+}
+.ant-tag {
+  padding: 4px 7px;
+  border: none;
+  background: '#f3f3f3';
+}
+.liStyle {
+  margin-top: 4px;
+  float: left;
+  list-style: none;
+  margin-left: 5px;
+  padding-bottom: 4px;
+}
